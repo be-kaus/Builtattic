@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import RegisterPage from "./pages/Register";
 import Associates from "./pages/Associates";
 import Ai from "./pages/Ai";
+import Aisetting from "./pages/AiSetting";
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/ai" element={<Ai />} />
+          <Route path="/aisetting" element={<Aisetting />} />
+
 
         </Routes>
       </BrowserRouter>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Send, Settings, History, Star, Menu, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Ai = () => {
   const [messages, setMessages] = useState([
@@ -17,7 +18,10 @@ const Ai = () => {
     if (!input.trim()) return;
 
     const newMessage = { role: "user", content: input };
-    const aiResponse = { role: "ai", content: "Kam krna h nhi bs AI se puchlo" };
+    const aiResponse = {
+      role: "ai",
+      content: "Kam krna h nhi bs AI se puchlo",
+    };
 
     setMessages([...messages, newMessage, aiResponse]);
     setHighlights([...highlights, `⭐ ${input}`]);
@@ -66,7 +70,10 @@ const Ai = () => {
             ))}
           </div>
           <button className="mt-110 bg-stone-900 text-white py-3 px-5 rounded-lg flex items-center justify-center gap-2 hover:bg-black transition-all duration-300 ease-in-out shadow-sm">
-            <Settings size={18} /> Settings
+            <Settings size={18} />{" "}
+            <Link to="/aisetting" className="">
+              Setting
+            </Link>
           </button>
         </div>
 
