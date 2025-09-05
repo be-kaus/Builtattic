@@ -14,6 +14,9 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
+          <NavLink to="/ai" className="text-gray-600 hover:text-black">
+            AI
+          </NavLink>
           <NavLink to="/amazon" className="text-gray-600 hover:text-black">
             Studio
           </NavLink>
@@ -28,9 +31,6 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/login" className="text-gray-600 hover:text-black">
             Login
-          </NavLink>
-          <NavLink to="/ai" className="text-gray-600 hover:text-black">
-            AI
           </NavLink>
         </div>
 
