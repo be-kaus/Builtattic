@@ -229,6 +229,102 @@ const BlinkitPage = () => {
                   Tools & Equipment
                 </p>
               </div>
+
+              {/* Card 1 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Bricks"
+                  alt="Bricks"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Bricks & Blocks
+                </p>
+              </div>
+
+              {/* Card 2 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Cement"
+                  alt="Cement"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Cement & Concrete
+                </p>
+              </div>
+
+              {/* Card 3 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Steel"
+                  alt="Steel"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Steel & Metals
+                </p>
+              </div>
+
+              {/* Card 4 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Sand"
+                  alt="Sand"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Sand & Aggregates
+                </p>
+              </div>
+
+              {/* Card 5 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Pipes"
+                  alt="Pipes"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Pipes & Fittings
+                </p>
+              </div>
+
+              {/* Card 6 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Electrical"
+                  alt="Electrical"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Electrical Supplies
+                </p>
+              </div>
+
+              {/* Card 7 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Paints"
+                  alt="Paints"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Paints & Finishes
+                </p>
+              </div>
+
+              {/* Card 8 */}
+              <div className="bg-white shadow-lg rounded-xl p-4 sm:p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="https://placehold.co/300x200?text=Tools"
+                  alt="Tools"
+                  className="w-full h-24 sm:h-32 object-cover rounded-md"
+                />
+                <p className="mt-2 sm:mt-4 font-medium text-gray-800 text-sm sm:text-base">
+                  Tools & Equipment
+                </p>
+              </div>
             </div>
           </div>
         </div>
