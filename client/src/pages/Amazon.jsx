@@ -2,7 +2,7 @@ import React from "react";
 
 const Amazon = () => {
   return (
-    <div className="px-2 py-4 sm:px-4 md:px-6 lg:px-8 space-y-8">
+    <div className="px-2 mt-3 py-4 sm:px-4 md:px-6 lg:px-8 space-y-8">
       {/* Search Bar */}
       <div className="flex justify-center">
         <input

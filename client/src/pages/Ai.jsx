@@ -72,7 +72,7 @@ const Ai = () => {
           <button className="mt-110 bg-stone-900 text-white py-3 px-5 rounded-lg flex items-center justify-center gap-2 hover:bg-black transition-all duration-300 ease-in-out shadow-sm">
             <Settings size={18} />{" "}
             <Link to="/aisetting" className="">
-              Setting
+              Settings
             </Link>
           </button>
         </div>
