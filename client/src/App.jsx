@@ -27,8 +27,6 @@ const App = () => {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/ai" element={<Ai />} />
           <Route path="/aisetting" element={<Aisetting />} />
-
-
         </Routes>
       </BrowserRouter>
     </>
