@@ -39,16 +39,15 @@ const Ai = () => {
           <Menu size={20} />
         </button>
         <h1 className="font-light text-xl text-stone-800 tracking-wider">
-          ASSIST
+          Builtattic
         </h1>
         <button
           onClick={() => setShowHighlights(!showHighlights)}
           className="p-2 rounded-lg text-stone-600 hover:bg-stone-100 transition"
         >
-          <Star size={20} />
+          <Sparkles size={20} />
         </button>
       </div>
-
       <div className="flex flex-1 overflow-hidden">
         {/* Left Sidebar */}
         <div
